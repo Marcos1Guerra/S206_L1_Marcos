@@ -23,3 +23,9 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('login',(user,senha) => {
+    cy.get('#username').type(user)
+    cy.get('#password').type(senha)
+    cy.get('.btn-primary').click()
+})
