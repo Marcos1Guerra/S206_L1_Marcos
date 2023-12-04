@@ -8,7 +8,8 @@
 # Para executar precisa digitar no terminal e verificar se esta funcionando todos os testes:
 mvn test -Dtest=TrabalhoRunner
 
-#Questão 02: 
+# Questão 02: 
+
 1 - desenvolvi 6 suítes de testes 
 
 2 - testes automatizados 
